@@ -1,7 +1,6 @@
 import { Context } from "rango";
 import * as fs from "fs";
 import * as path from "path";
-import jwt from "jsonwebtoken"; // Make sure to import jwt and define JWT_SECRET
 import { signJWT } from "../middlewares/jwt.middleware";
 
 const USERS_FILE = path.join(__dirname, "users.json");
