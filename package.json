@@ -1,5 +1,5 @@
 {
-  "name": "typescript-jest-example",
+  "name": "rango-jest-sample",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,9 @@
     "test": "jest",
     "start": "node -r ts-node/register src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bromix/typescript-jest-example.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bromix/typescript-jest-example/issues"
-  },
-  "homepage": "https://github.com/bromix/typescript-jest-example#readme",
   "jest": {
     "setupFilesAfterEnv": [
       "./jest.config.js"
